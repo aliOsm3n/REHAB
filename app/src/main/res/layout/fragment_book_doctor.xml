@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.BookDoctorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp">
+
+        <com.example.ascom.rehab.view.CustomButton
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/MenBtn"
+            android:background="@drawable/fill_button2"
+            android:text="@string/men"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            />
+
+        <com.example.ascom.rehab.view.CustomButton
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/MenBtn"
+            android:id="@+id/WomansBtn"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/fill_button2"
+            android:text="@string/womans"
+            android:textSize="20dp"
+            android:textColor="@android:color/white" />
+
+        <com.example.ascom.rehab.view.CustomButton
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/WomansBtn"
+            android:id="@+id/ConsultingBT"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/fill_button2"
+            android:text="@string/Consulting"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:id="@+id/Img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/rehab_logo"
+            android:visibility="invisible"/>
+
+        <Spinner
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:layout_below="@+id/Img"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/spinner_background"
+            android:layout_marginTop="15dp" />
+
+
+        <Spinner
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:layout_below="@+id/spinner"
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/spinner_background"
+            android:layout_marginTop="15dp" />
+
+        <Spinner
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:layout_below="@+id/spinner2"
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/spinner_background"
+            android:layout_marginTop="15dp" />
+
+
+
+        <Spinner
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:layout_below="@+id/spinner3"
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/spinner_background"
+            android:layout_marginTop="15dp" />
+
+        <com.example.ascom.rehab.view.MyEditText
+            android:visibility="invisible"
+            android:layout_below="@+id/spinner5"
+            android:layout_marginTop="15dp"
+            android:id="@+id/DoctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/DoctorName"/>
+
+        <com.example.ascom.rehab.view.CustomButton
+            android:visibility="invisible"
+            android:layout_below="@+id/DoctorName"
+            android:background="@drawable/fill_button"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/search"/>
+
+
+    </RelativeLayout>
+        </ScrollView>
+</FrameLayout>

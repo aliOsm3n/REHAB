@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ahmed.planeeye.RegisterActivity">
+
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:id="@+id/PlaceTV"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/zone"
+            android:textColor="@android:color/white" />
+
+        <Spinner
+            android:layout_below="@+id/PlaceTV"
+            android:id="@+id/spinnerZone"
+            style="@style/SpinnerTheme"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/spinner_background2"
+            android:overlapAnchor="false" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:id="@+id/CityTV"
+            android:layout_below="@+id/spinnerZone"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/city"
+            android:textColor="@android:color/white" />
+
+
+        <Spinner
+            android:layout_below="@+id/CityTV"
+            android:id="@+id/spinnerCity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layoutDirection="rtl"
+            style="@style/SpinnerTheme"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/spinner_background2"
+            android:overlapAnchor="false" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/spinnerCity"
+            android:id="@+id/SpecialistTV"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/specialization"
+            android:textColor="@android:color/white" />
+
+        <Spinner
+            android:layout_below="@+id/SpecialistTV"
+            android:id="@+id/spinnerSpecialization"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layoutDirection="rtl"
+            style="@style/SpinnerTheme"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/spinner_background2"
+            android:overlapAnchor="false" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:id="@+id/SexTV"
+            android:layout_below="@+id/spinnerSpecialization"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/SSex"
+            android:textColor="@android:color/white" />
+        <Spinner
+            android:layout_below="@+id/SexTV"
+            android:id="@+id/spinnerSex"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layoutDirection="rtl"
+            style="@style/SpinnerTheme"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/spinner_background2"
+            android:overlapAnchor="false" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/spinnerSex"
+            android:id="@+id/NationalityTV"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/nationality"
+            android:textColor="@android:color/white" />
+
+        <Spinner
+            android:layout_below="@+id/NationalityTV"
+            android:id="@+id/spinnerNationality"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layoutDirection="rtl"
+            style="@style/SpinnerTheme"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/spinner_background2"
+            android:overlapAnchor="false" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/spinnerNationality"
+            android:id="@+id/PersonalPhotoTV"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/personalPicture"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/PersonalPhotoTV"
+            android:id="@+id/PersonalPhoto"
+            android:src="@drawable/icon"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:id="@+id/UniversityCertificateTV"
+            android:layout_below="@+id/PersonalPhoto"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/universityDegree"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/UniversityCertificateTV"
+            android:id="@+id/UniversityCertificate"
+            android:src="@drawable/icon"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:id="@+id/AddressTV"
+            android:layout_below="@+id/UniversityCertificate"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/clinicAddress"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/AddressTV"
+            android:id="@+id/pinCurrentLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pinLocation"
+            android:textColor="@color/white"/>
+
+
+
+        <com.example.ascom.rehab.view.CustomButton
+            android:layout_below="@+id/pinCurrentLocation"
+            android:id="@+id/createAccount"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/fill_button"
+            android:text="@string/createAccount"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+</ScrollView>

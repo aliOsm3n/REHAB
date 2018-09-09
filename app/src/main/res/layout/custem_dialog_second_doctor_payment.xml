@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@color/white">
+
+    <com.example.ascom.rehab.view.CustomTextView
+        android:id="@+id/balace_tv"
+        android:textSize="50dp"
+        android:text="@string/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.example.ascom.rehab.view.CustomTextView
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_toEndOf="@+id/balace_tv"
+        android:id="@+id/salary_balace_tv"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:text="@string/Dollars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.example.ascom.rehab.view.CustomButton
+        android:textColor="@color/white"
+        android:text="@string/add"
+        android:background="@drawable/fill_button2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/balace_tv"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/white"
+    >
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile" />
+
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/image"
+                android:id="@+id/nameDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/moustafa"
+                android:layout_toRightOf="@+id/image" />
+
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_below="@+id/nameDoctor"
+                android:layout_toEndOf="@+id/image"
+                android:id="@+id/DoctorJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/calendar"
+                android:text="@string/dday"
+                android:layout_toRightOf="@+id/image"
+                android:drawableLeft="@drawable/calendar" />
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:id="@+id/ttime"
+                    android:layout_below="@+id/DoctorJob"
+                    android:layout_toEndOf="@+id/image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/clock"
+                    android:text="@string/time"
+                    android:drawableLeft="@drawable/clock"
+                    android:layout_toRightOf="@+id/image" />
+
+
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/image"
+                android:layout_below="@+id/ttime"
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/placeholder"
+                android:text="@string/phone"
+                android:layout_toRightOf="@+id/image"
+                android:drawableLeft="@drawable/placeholder" />
+        <Button
+            android:id="@+id/Confirm"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="@string/Confirm"
+            android:background="@drawable/fill_button2"
+            android:layout_below="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="30dp"/>
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:id="@+id/FinishedBu"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="@string/Finished"
+            android:background="@drawable/fill_button2"
+            android:layout_below="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="30dp"/>
+
+        <Button
+            android:layout_alignParentEnd="true"
+            android:id="@+id/close"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="@string/close"
+            android:background="@drawable/fill_button2"
+            android:layout_below="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="30dp"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

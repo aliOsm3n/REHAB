@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home2Patient"
+    tools:showIn="@layout/app_bar_home2_patient">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/profile" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moustafa"
+            android:layout_toRightOf="@+id/imageView7" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_below="@+id/textView35"
+            android:id="@+id/textView36"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/job"
+            android:layout_toRightOf="@+id/imageView7" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:textSize="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/textView36"
+            android:layout_toEndOf="@+id/ratingBar"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/RateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rats"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/ratingBar" />
+
+
+        <RatingBar
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_below="@+id/textView36"
+            android:rating="3.3"
+            style="?attr/ratingBarStyleSmall"
+            android:theme="@style/RatingBar"
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imageView7" />
+
+
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/linear"
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/desc"
+                />
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/textView38"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textCertificate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showCertificate"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/certificate"
+                android:drawableLeft="@drawable/certificate" />
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/textCertificate"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appoins"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/calendar"
+                android:drawableLeft="@drawable/calendar" />
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/textView40"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theRange"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/clock"
+                android:drawableLeft="@drawable/clock" />
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/textView41"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theWait"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/clock"
+                android:drawableLeft="@drawable/clock" />
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/textView29"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/salary"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/price"
+                android:drawableLeft="@drawable/price" />
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/textView30"
+                android:layout_marginTop="5dp"
+                android:id="@+id/AddressTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/placeholder"
+                android:drawableLeft="@drawable/placeholder" />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_below="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            tools:ignore="UnknownId">
+
+            <!--<com.example.ascom.rehab.view.CustomButton-->
+                <!--android:textSize="15dp"-->
+                <!--android:id="@+id/ratebtn"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/button_bg"-->
+                <!--android:text="@string/rate"-->
+                <!--android:textColor="@color/white" />-->
+
+            <com.example.ascom.rehab.view.CustomButton
+                android:layout_width="0dp"
+                android:textSize="15dp"
+                android:id="@+id/BtnMsg"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:text="@string/message" />
+
+            <com.example.ascom.rehab.view.CustomButton
+                android:layout_width="0dp"
+                android:textSize="15dp"
+                android:id="@+id/btnCall"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:text="@string/call" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/heart"
+            android:src="@drawable/like"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imageView7"
+            android:text="TextView"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white"
+            android:background="@color/forstyle"
+            android:text="@string/book" />
+
+    </RelativeLayout>
+</FrameLayout>

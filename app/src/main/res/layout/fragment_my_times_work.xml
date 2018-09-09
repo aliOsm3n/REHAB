@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MyTimesWorkFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:id="@+id/Add"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addNewBook"/>
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/Add"
+            android:gravity="center"
+            android:id="@+id/d3day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:drawableStart="@drawable/calendar"
+            android:drawablePadding="0dp"
+            android:text="@string/day" />
+
+
+        <GridView
+            android:layout_below="@+id/d3day"
+            android:id="@+id/gridView4"
+            android:layout_marginTop="20dp"
+            android:numColumns="3"
+            android:verticalSpacing="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_alignParentBottom="true"
+            android:id="@+id/fab_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"
+            android:layout_margin="10dp" />
+
+
+            <!--<Button-->
+                <!--android:background="@drawable/icon_button_view"-->
+                <!--android:layout_below="@+id/gridView4"-->
+                <!--android:id="@+id/Butpls"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:src="@android:drawable/ic_input_add"-->
+                <!--android:layout_marginTop="10dp" />-->
+
+
+    </RelativeLayout>
+
+</FrameLayout>

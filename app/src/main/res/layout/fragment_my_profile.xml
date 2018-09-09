@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MyProfileFragment">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/profile" />
+
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_toEndOf="@+id/imageView7"
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/moustafa"
+                android:drawableEnd="@drawable/checked_2"
+                android:drawableRight="@drawable/checked_2"
+                android:layout_toRightOf="@+id/imageView7" />
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_toEndOf="@+id/imageView7"
+                android:layout_below="@+id/textView35"
+                android:id="@+id/textView36"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/job"
+                android:layout_toRightOf="@+id/imageView7" />
+
+
+        <RatingBar
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_below="@+id/textView36"
+            android:rating="3.3"
+            style="?attr/ratingBarStyleSmall"
+            android:theme="@style/RatingBar"
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imageView7" />
+
+
+
+
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/linear"
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/desc"
+                />
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:textSize="11dp"
+                android:layout_below="@+id/textView38"
+                android:id="@+id/TV_Certificates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableEnd="@drawable/plus"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/clock"
+                android:text="@string/showAllCertificts"
+                android:drawableLeft="@drawable/clock"
+                android:drawableRight="@drawable/plus" />
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageView7"
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/editBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="@string/Edit"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/BtnRates"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:text="@string/MyRates" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

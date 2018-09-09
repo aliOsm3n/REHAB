@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/profile"
+        />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moustafa"
+            android:layout_toRightOf="@+id/imageView7" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_below="@+id/textView35"
+            android:id="@+id/textView36"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/job"
+            android:layout_toRightOf="@+id/imageView7" />
+
+
+     <RatingBar
+         android:layout_marginStart="5dp"
+         android:layout_toEndOf="@+id/imageView7"
+        android:layout_below="@+id/textView36"
+        android:rating="3.3"
+        style="?attr/ratingBarStyleSmall"
+        android:theme="@style/RatingBar"
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+         android:layout_toRightOf="@+id/imageView7" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/imageView7"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dday"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/calendar"
+            android:drawableLeft="@drawable/calendar" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/textView41"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/clock"
+            android:drawableLeft="@drawable/clock" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/textView29"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salary"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/price"
+            android:drawableLeft="@drawable/price" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/textView30"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address1"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/placeholder"
+            android:drawableLeft="@drawable/placeholder" />
+
+    <com.example.ascom.rehab.view.CustomButton
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView31"
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/fill_button2"
+        android:text="@string/boook"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

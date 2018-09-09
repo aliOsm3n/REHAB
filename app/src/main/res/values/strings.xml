@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">REHAB</string>
+    <string name="marid">patient</string>
+    <string name="tabib">Doctor</string>
+    <string name="username">User name </string>
+    <string name="password">Password </string>
+    <string name="login">Log in </string>
+    <string name="NO.createAccount">There are no Account? Are u want</string>
+    <string name="selectAccountType">Select type of Account U want </string>
+    <string name="createAccount">Create Account  </string>
+    <string name="phonenumber">Telephone number   </string>
+    <string name="email"> Email  </string>
+    <string name="secretPassword"> password Security </string>
+    <string name="next">next </string>
+    <string name="city">City </string>
+    <string name="zone">Place </string>
+    <string name="specialization">Specialization  </string>
+    <string name="sex">Type.nationality </string>
+    <string name="personalPicture">Personal Picture  </string>
+    <string name="universityDegree"> University Certificate </string>
+    <string name="clinicAddress"> Clinic Address </string>
+    <string name="greatThanks">Perfect Thank you </string>
+    <string name="enterCode"> Write a key </string>
+    <string name="emailCode">We already send a message to your gmail . check ot now  </string>
+    <string name="resend">Resend   </string>
+    <string name="pinLocation">pin location on map</string>
+    <string-array name="data_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string-array name="nationalite">
+        <item>Nationality</item>
+        <item>Egyptian</item>
+        <item>Chinese</item>
+        <item>German</item>
+        <item>Saudi</item>
+    </string-array>
+    <string-array name="companies">
+        <item>All Insurance Companies</item>
+        <item>Egypt Clearing</item>
+        <item>National Bank</item>
+        <item>Faisal Bank</item>
+        <item>Bank Audi</item>
+    </string-array>
+    <string-array name="Specializations">
+        <item>All Disciplines</item>
+        <item>Eyes</item>
+        <item>Bones</item>
+        <item>Leather</item>
+        <item>Undertones</item>
+    </string-array>
+    <string-array name="Contries">
+        <item>Riyadh</item>
+        <item>Mecca</item>
+        <item>Marsa Alam</item>
+        <item>Kafr El Sheikh"</item>
+        <item>Sidi Gaber</item>
+    </string-array>
+    <string-array name="Cities">
+        <item>Nasr City</item>
+        <item>Abbasid</item>
+        <item>Makram Ebeid</item>
+        <item>Martyrs</item>
+        <item>Shebin El Koum</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="orderDoctor"> book Doctor </string>
+    <string name="favourite"> Favourite </string>
+    <string name="appointments"> My Appointments </string>
+    <string name="theEmai"> Mail </string>
+    <string name="thePayment"> Payment </string>
+    <string name="theSetting"> Settings </string>
+    <string name="exit"> Exit </string>
+    <string name="myaccount">My Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="allSpecializations">All Departments </string>
+    <string name="DoctorName">Doctor name </string>
+    <string name="search">Search</string>
+    <string name="moustafa">D.moustafa  </string>
+    <string name="job">Doctor heart injuction  </string>
+    <string name="desc">Cardiac disorders such as coronary heart disease (including myocardial infarction, heart failure, cardiomyopathy, arrhythmias (as atrial fibrillation) and others are common and are a major cause of mortality in elderly people. </string>
+    <string name="day">1 Friday</string>
+    <string name="time">3:45 Evening </string>
+    <string name="salary">300 Pounds</string>
+    <string name="address"> <u>   3 ElMa33adi Street. the Floor 2 </u></string>
+    <string name="moustafa1">D.Ahmed Saad </string>
+    <string name="moustafa2">Dr.Elmohamadi Saad</string>
+    <string name="moustafa3">Dr.Raoof Khalifa</string>
+    <string name="moustafa4">Dr.Mohamed Barakat</string>
+    <string name="job1">Specialist of brain surgery</string>
+    <string name="job2">Specialist of brain surgery</string>
+    <string name="job3">  Specialist of brain surgery</string>
+    <string name="job4">Neurosurgery Specialist</string>
+    <string name="day1">1 Friday</string>
+    <string name="day2">1 Saturday</string>
+    <string name="day3">1 Sunday</string>
+    <string name="day4">1 Monday</string>
+    <string name="salary1">300 Pounds</string>
+    <string name="salary2">500 Pounds</string>
+    <string name="salary3">600 Pounds</string>
+    <string name="salary4">700 Pounds</string>
+    <string name="address1">3 Tahrir Street . the Floor 2</string>
+    <string name="address2">3 Tahrir Street . the Floor 2</string>
+    <string name="address3">3 Tahrir Street . the Floor 2</string>
+    <string name="address4">3 Tahrir Street . the Floor 2</string>
+    <string name="book">Book</string>
+    <string name="call">Call</string>
+    <string name="rate">Rate</string>
+    <string name="message">Send Message </string>
+    <string name="showCertificate"> <u>(Bachelor of Medicine Cairo University: Click to view the certificate) </u></string>
+    <string name="appoins">All weekdays except Friday</string>
+    <string name="theRange">3:45 evening - 12:00 morning</string>
+    <string name="theWait">The waiting time is 30 minutes</string>
+    <string name="dday">Thursday 2 March 2017</string>
+    <string name="boook">reservation confirm</string>
+    <string name="makeRate">Rate</string>
+    <string name="title_activity_home_patient">HomePatient</string>
+    <string name="title_activity_home2_patient">Home2Patient</string>
+    <string name="title_activity_home3_patient">Home3Patient</string>
+    <string name="title_activity_home_doctor">HomeDoctor</string>
+    <string name="MyTimes">My appointment</string>
+    <string name="MyTimesWork">Pract dates</string>
+    <string name="MyProfile">My Profile</string>
+    <string name="MyClinics">Clinics</string>
+    <string name="MyRates"> Rates</string>
+    <string name="Edit">Edit</string>
+    <string name="rats"><u>(  300 Rates )</u></string>
+    <string name="showAllCertificts"><u>( Click to view the certificates)</u></string>
+    <string name="addNewBook">Add dates for booking</string>
+    <string name="close">Close</string>
+    <string name="phone">0108787887</string>
+    <string name="title_activity_rates">RatesActivity</string>
+    <string name="date"> 2 March 2017</string>
+    <string name="theHour">Clock</string>
+    <string name="AddBookingTime">Add a reservation</string>
+    <string name="title_activity_the_messeges_">TheMesseges_Activity</string>
+    <string name="marid_name">Patient name</string>
+    <string name="time_date"> 9 October 30, 1437 </string>
+    <string name="replay">Replay</string>
+    <string name="send">Send</string>
+    <string name="api_key">AIzaSyDpVln01CZOx1XDlZaAK6Wk0NgSTLLn-Ss</string>
+    <string name="done">Done</string>
+    <string name="writeMsg">Write message here :</string>
+    <string name="Change_Lang">Change Lang</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="government">Government</string>
+    <string name="CheckInternetConnection">Check Internet Connection</string>
+    <string name="male">male</string>
+    <string name="female">Female</string>
+    <string name="men">Men</string>
+    <string name="womans">Womans</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_error_no_internet">Check Internet Connection</string>
+    <string name="u_are_not_registered">You arenot Registered , Do You Want to Register !</string>
+    <string name="error_dialog_missing_inputs">Check Either Username Or Password</string>
+    <string name="error_dialog_user_not_found">User not Found Check The Name and Password</string>
+    <string name="GotoHome">Go to Home</string>
+    <string name="ChooseType">Choose Type To Can SignUp</string>
+    <string name="CheckAllData">Please Fill All Fields</string>
+    <string name="welcom">Thanks , Press next to Continu</string>
+    <string name="Confirm">Confirm</string>
+    <string name="status">Cancelled</string>
+    <string name="SSex">Sex</string>
+    <string name="nationality">Nationality</string>
+    <string name="ForgetPassword">Forget Password</string>
+    <string name="ChangePassword">Channge Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="RewritePassword">re write password</string>
+    <string name="ConfirmNewPassword">Confirm New Password</string>
+    <string name="Codenum">+696</string>
+    <string name="Consulting">Consulting</string>
+    <string name="Finished">Finished</string>
+    <string name="current_balance">Current Balance : </string>
+    <string name="Dollars">0.00 $$</string>
+    <string name="addBalace">Add Balance</string>
+    <string name="bill_month">The Bill Monthly</string>
+    <string name="sale">50 dollars</string>
+    <string name="due_date">Due Date :</string>
+    <string name="pay_the_bill">Pay The Bill</string>
+    <string name="bill_condition">Bill Condition : </string>
+    <string name="checking">Checking</string>
+    <string name="balance">Balance : </string>
+    <string name="add">Add Balance</string>
+
+
+</resources>

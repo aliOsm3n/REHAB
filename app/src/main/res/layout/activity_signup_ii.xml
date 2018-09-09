@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ahmed.planeeye.RegisterActivity">
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:textSize="20dp"
+            android:id="@+id/CreareAccTV"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/createAccount"
+            android:textColor="@android:color/white" />
+
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/CreareAccTV"
+                android:id="@+id/UsernameED"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/username"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/UsernameED"
+                android:id="@+id/usernameEd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="mostafa Ahmed"
+                android:textColorHint="@color/white"
+                android:textColor="@android:color/white" />
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:id="@+id/PhoneTV"
+                android:layout_below="@+id/usernameEd"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/phonenumber"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/CodeTV"
+                android:layout_below="@+id/PhoneTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Codenum"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/PhoneTV"
+                android:id="@+id/phoneEd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="011223344566"
+                android:textColorHint="@color/white"
+                android:textColor="@android:color/white" />
+
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:layout_below="@+id/phoneEd"
+                android:id="@+id/EmailTV"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/email"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/EmailTV"
+                android:id="@+id/emailEd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="asdff@gmail.com"
+                android:textColorHint="@color/white"
+                android:textColor="@android:color/white" />
+
+
+            <com.example.ascom.rehab.view.CustomTextView
+                android:id="@+id/PassTV"
+                android:layout_below="@+id/emailEd"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/secretPassword"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:layout_below="@+id/PassTV"
+                android:id="@+id/passEd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="*************"
+                android:textColorHint="@color/white"
+                android:textColor="@android:color/white" />
+
+
+
+            <com.example.ascom.rehab.view.CustomButton
+                android:layout_below="@+id/passEd"
+                android:id="@+id/next"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/fill_button"
+                android:text="@string/next"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+
+
+        </RelativeLayout>
+</ScrollView>

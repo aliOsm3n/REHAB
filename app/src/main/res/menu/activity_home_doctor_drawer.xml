@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_account"
+            android:icon="@drawable/user"
+
+            android:title="@string/myaccount" />
+        <item
+            android:id="@+id/the_mail"
+            android:icon="@drawable/mail"
+            android:title="@string/theEmai" />
+        <item
+            android:id="@+id/my_appointments"
+            android:icon="@drawable/time"
+            android:title="@string/appointments" />
+        <item
+            android:id="@+id/the_payment"
+            android:icon="@drawable/credit_card"
+            android:title="@string/thePayment" />
+        <item
+            android:id="@+id/the_setting"
+            android:icon="@drawable/settings"
+            android:title="@string/theSetting" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/logout"
+            android:title="@string/exit" />
+    </group>
+</menu>

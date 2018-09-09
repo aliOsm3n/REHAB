@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رحاب </string>
+    <string name="marid">مريض</string>
+    <string name="tabib">طبيب</string>
+    <string name="username">اسم المستخدم </string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="NO.createAccount">ليس لديك حساب ؟قم بانشاء حساب</string>
+    <string name="selectAccountType">اختر نوع الحساب اللذى تريد انشائه</string>
+    <string name="createAccount">انشاء حساب  </string>
+    <string name="phonenumber">رقم الجوال  </string>
+    <string name="email">البريد الالكترونى  </string>
+    <string name="secretPassword">كلمة السر </string>
+    <string name="next">التالى </string>
+    <string name="city">المدينه </string>
+    <string name="zone">المنطقه </string>
+    <string name="specialization">التخصص  </string>
+    <string name="sex">النوع.الجنسيه </string>
+    <string name="personalPicture">الصورة الشخصيه </string>
+    <string name="universityDegree">الشهاده الجامعيه </string>
+    <string name="clinicAddress">عنوان العياده </string>
+    <string name="greatThanks">رائع،شكرا لك </string>
+    <string name="enterCode">ادخل الرمز </string>
+    <string name="emailCode">لقد قمنا بارسال رمز التاكيد على بريدك الالكترونى قم بالتحقق منه  </string>
+    <string name="resend">اعادة ارسال  </string>
+    <string name="pinLocation">pin location on map</string>
+    <string-array name="data_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string-array name="nationalite">
+        <item>الجنسية </item>
+        <item>مصرى</item>
+        <item>صينى </item>
+        <item>المانى</item>
+        <item>سعودى</item>
+    </string-array>
+    <string-array name="companies">
+        <item>كل شركات التامين</item>
+        <item>مصر المقاصة</item>
+        <item>البنك الاهلى</item>
+        <item>بنك فيصل</item>
+        <item> بنك عودة</item>
+    </string-array>
+    <string-array name="Specializations">
+        <item>كل التخصصات</item>
+        <item>عيون</item>
+        <item>عظام</item>
+        <item>جلدية</item>
+        <item>باطنة</item>
+    </string-array>
+    <string-array name="Contries">
+        <item>الرياض</item>
+        <item>مكة</item>
+        <item>مرسى علم</item>
+        <item>كفر الشيخ</item>
+        <item>سيدى جابر</item>
+    </string-array>
+    <string-array name="Cities">
+        <item>مدينة نصر</item>
+        <item>العباسية</item>
+        <item>مكرم عبيد</item>
+        <item>الشهداء</item>
+        <item>شبين الكوم</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="orderDoctor">احجز طبيب </string>
+    <string name="favourite"> المفضله </string>
+    <string name="appointments"> مواعيدى </string>
+    <string name="theEmai"> البريد </string>
+    <string name="thePayment"> الدفع </string>
+    <string name="theSetting"> الضبط </string>
+    <string name="exit"> خروج </string>
+    <string name="myaccount">حسابى</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="allSpecializations">كل التخصصات</string>
+    <string name="DoctorName">اسم الدكتور</string>
+    <string name="search">ابحث</string>
+    <string name="moustafa">د. مصطقى </string>
+    <string name="job">اخصائى جراحه قلب</string>
+    <string name="desc">جراحة القلب , جميع جراحات القلب المفتوح (الشرايين التاجية , و تغيير و اصلاح الصمامات , وعمليات اصلاح بعض العيوب الخلقية للأطفال , و جميع عمليات الصدر (عينة من الغشاء البلوري , علاج التجمعات الهوائية و المائية و الدموية و الصدرية على الرئة)</string>
+    <string name="day">1 الجمعه</string>
+    <string name="time">3:45 مساء </string>
+    <string name="salary">300 جنيه</string>
+    <string name="address"> <u>   3  شارع جامعه الدول الدور 2 </u></string>
+    <string name="moustafa1">د.حمدى احمد </string>
+    <string name="moustafa2">د. المحمدى سعد</string>
+    <string name="moustafa3">د. رؤؤف خليفة</string>
+    <string name="moustafa4">د. محمد بركات</string>
+    <string name="job1">اخصائى جراحه الجلد</string>
+    <string name="job2">اخصائى جراحه العقل</string>
+    <string name="job3">اخصائى جراحه المخ</string>
+    <string name="job4">اخصائى جراحه الاعصاب</string>
+    <string name="day1">1 الجمعه</string>
+    <string name="day2">1 السبت</string>
+    <string name="day3">1 الاحد</string>
+    <string name="day4">1 الاتنين</string>
+    <string name="salary1">300 جنيه</string>
+    <string name="salary2">500 جنيه</string>
+    <string name="salary3">600 جنيه</string>
+    <string name="salary4">700 جنيه</string>
+    <string name="address1">3 شارع محمد محمود الدور 2</string>
+    <string name="address2">3 شارع جامعه الدول الدور 2</string>
+    <string name="address3">3 شارع الاستاد الدور 2</string>
+    <string name="address4">3 شارع على مبارك الدور 2</string>
+    <string name="book">احجز</string>
+    <string name="call">اتصل</string>
+    <string name="rate">قيم</string>
+    <string name="message">ارسل رسالة</string>
+    <string name="showCertificate"> <u>(حاصل على بكلريوس طب جامعة القاهره : اضغط لعرض الشهادة) </u></string>
+    <string name="appoins">كل ايام الاسبوع ماعدا الجمعه</string>
+    <string name="theRange">3:45 مساء - 12:00 صباحا</string>
+    <string name="theWait">وقت الانتظار 30 دقيقة</string>
+    <string name="dday">الثلاثاء 2 مارس 2017</string>
+    <string name="boook">تاكيد الحجز</string>
+    <string name="makeRate">قيم</string>
+    <string name="title_activity_home_patient">HomePatient</string>
+    <string name="title_activity_home2_patient">Home2Patient</string>
+    <string name="title_activity_home3_patient">Home3Patient</string>
+    <string name="title_activity_home_doctor">HomeDoctor</string>
+    <string name="MyTimes">مواعيدى</string>
+    <string name="MyTimesWork">مواعيد عملى</string>
+    <string name="MyProfile">ملفى</string>
+    <string name="MyClinics">عياداتى</string>
+    <string name="MyRates"> تقيماتى</string>
+    <string name="Edit">تعديل</string>
+    <string name="rats"><u>(  300 تقيمات )</u></string>
+    <string name="showAllCertificts"><u>( اضغط لعرض الشهادات )</u></string>
+    <string name="addNewBook">اضف مواعيد للحجز</string>
+    <string name="close">اغلاق</string>
+    <string name="phone">0108787887</string>
+    <string name="title_activity_rates">RatesActivity</string>
+    <string name="date"> 2 مارس 2017</string>
+    <string name="theHour">الساعه</string>
+    <string name="AddBookingTime">اضف ميعاد حجز</string>
+    <string name="title_activity_the_messeges_">TheMesseges_Activity</string>
+    <string name="marid_name">اسم المريض</string>
+    <string name="time_date"> 9:00 صباحا 30شوال/1437 </string>
+    <string name="replay">رد</string>
+    <string name="send">ارسال</string>
+    <string name="api_key">AIzaSyDpVln01CZOx1XDlZaAK6Wk0NgSTLLn-Ss</string>
+    <string name="done">تم</string>
+    <string name="writeMsg">اكتب الرساله هنا :</string>
+    <string name="Change_Lang"> تغيير اللغة </string>
+    <string name="update">تعديل</string>
+    <string name="cancel">الغاء</string>
+    <string name="government">المحافظه</string>
+    <string name="CheckInternetConnection">من فضلك قم بفحص الاتصال</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثى</string>
+</resources>

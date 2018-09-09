@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Frame3layout"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home3Patient"
+    tools:showIn="@layout/app_bar_home3_patient">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/nameDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/image"
+            android:text="@string/moustafa" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/image"
+            android:id="@+id/DoctorJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameDoctor"
+            android:layout_marginTop="5dp"
+            android:text="@string/job"
+            android:layout_toRightOf="@+id/image" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_toEndOf="@+id/ratingBar"
+            android:id="@+id/txRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DoctorJob"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="12dp"
+            android:text="@string/rats"
+            android:layout_toRightOf="@+id/ratingBar" />
+
+        <RatingBar
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/image"
+            android:id="@+id/ratingBar"
+            style="?attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DoctorJob"
+            android:layout_marginTop="10dp"
+            android:rating="4"
+            android:theme="@style/RatingBar"
+            android:layout_toRightOf="@+id/image" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/image"
+            android:id="@+id/addressTX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/placeholder"
+            android:text="@string/address"
+            android:layout_toRightOf="@+id/image"
+            android:drawableLeft="@drawable/placeholder" />
+
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/like"
+            android:layout_alignParentRight="true" />
+
+
+        <GridView
+            android:paddingStart="10dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/gridView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thisDay"
+            android:layout_marginTop="20dp"
+            android:numColumns="3"
+            android:verticalSpacing="8dp" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:id="@+id/thisDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="45dp"
+            android:drawableStart="@drawable/calendar"
+            android:gravity="center"
+            android:text="@string/dday" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

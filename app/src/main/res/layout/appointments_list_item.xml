@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/view_border"
+    android:layout_margin="8dp"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/profile" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moustafa" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_below="@+id/name"
+            android:id="@+id/position"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/job" />
+
+
+        <RatingBar
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_below="@+id/position"
+            style="?attr/ratingBarStyleSmall"
+            android:theme="@style/RatingBar"
+            android:rating="4"
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+    <com.example.ascom.rehab.view.CustomButton
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="10dp"
+        android:layout_below="@+id/position"
+        android:id="@+id/RateBtn"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_toEndOf="@+id/ratingBar"
+        android:background="@drawable/fill_button2"
+        android:text="@string/rate"
+        android:textColor="@color/white" />
+
+
+
+
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/imageView7"
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/day"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/calendar"/>
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/day"
+            android:layout_marginTop="5dp"
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/clock"
+            android:drawableLeft="@drawable/clock" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/time"
+            android:layout_marginTop="5dp"
+            android:id="@+id/salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salary"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/price"
+            android:drawableLeft="@drawable/price" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/salary"
+            android:layout_marginTop="5dp"
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/placeholder"
+            android:drawableLeft="@drawable/placeholder" />
+
+    <com.example.ascom.rehab.view.CustomTextView
+        android:layout_below="@+id/address"
+        android:id="@+id/status"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/measure"/>
+
+</RelativeLayout>

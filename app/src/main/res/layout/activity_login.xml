@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ahmed.planeeye.RegisterActivity">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/photologo" />
+
+        <!--<com.example.ascom.rehab.view.CustomButton-->
+            <!--android:layout_below="@+id/imageView"-->
+            <!--android:id="@+id/marid"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="@drawable/fill_button"-->
+            <!--android:text="@string/marid"-->
+            <!--android:textColor="@android:color/white" />-->
+
+        <!--<com.example.ascom.rehab.view.CustomButton-->
+            <!--android:layout_below="@+id/marid"-->
+            <!--android:id="@+id/tabib"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="@drawable/anothorshape"-->
+            <!--android:text="@string/tabib"-->
+            <!--android:textColor="@android:color/white" />-->
+
+        <com.example.ascom.rehab.view.MyEditText
+            android:layout_below="@+id/imageView"
+            android:gravity="center"
+            android:background="@drawable/shapestatic"
+            android:id="@+id/phoneEDLogin"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/phonenumber"
+            android:textColorHint="@color/white"
+            android:textColor="@android:color/white" />
+
+
+        <com.example.ascom.rehab.view.MyEditText
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:layout_below="@+id/phoneEDLogin"
+            android:background="@drawable/shapestatic"
+            android:id="@+id/passwordEDLogin"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/password"
+            android:textColorHint="@color/white"
+            android:textColor="@android:color/white" />
+
+        <com.example.ascom.rehab.view.CustomButton
+            android:layout_below="@+id/passwordEDLogin"
+            android:id="@+id/login"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/fill_button"
+            android:text="@string/login"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login"
+            android:id="@+id/ForgitPassTV"
+            android:textColor="@color/white"
+            android:text="@string/ForgetPassword"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_below="@+id/ForgitPassTV"
+            android:id="@+id/createAccount"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/NO.createAccount"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginTop="18dp"
+            android:id="@+id/ChangeLang"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:layout_below="@+id/createAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Change_Lang"/>
+
+    </RelativeLayout>
+</ScrollView>

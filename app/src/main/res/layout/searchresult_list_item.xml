@@ -1,0 +1,91 @@
+<RelativeLayout
+    android:layout_margin="7dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/view_border"
+    android:padding="16dp">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image"
+        android:src="@drawable/profile"
+        />
+
+    <ImageView
+       android:layout_alignParentEnd="true"
+       android:id="@+id/imageView5"
+       android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/like"
+        android:layout_alignParentRight="true" />
+
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/image"
+            android:id="@+id/nameDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moustafa"
+            android:layout_toRightOf="@+id/image" />
+
+        <com.example.ascom.rehab.view.CustomTextView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/image"
+            android:layout_below="@+id/nameDoctor"
+            android:id="@+id/DoctorJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/job"
+            android:layout_toRightOf="@+id/image" />
+
+
+
+            <Button
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_below="@+id/imageView5"
+                android:onClick="ok"
+                android:id="@+id/book"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="@string/book"
+                android:background="@drawable/button_bg"
+                android:textColor="#FFF"
+                android:layout_alignParentRight="true" />
+
+            <RatingBar
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/image"
+                android:layout_below="@+id/DoctorJob"
+                android:rating="3.3"
+                style="?attr/ratingBarStyleSmall"
+                android:theme="@style/RatingBar"
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/image" />
+
+
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/image"
+        android:id="@+id/Descreption"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/desc" />
+
+
+
+</RelativeLayout>
